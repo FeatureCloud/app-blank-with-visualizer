@@ -1,4 +1,4 @@
-# FeatureCloud App Blank Template
+# FeatureCloud App Blank Template with included visualizer application
 
 The app-blank template contains an initial state that does not execute commands other than transitioning to the terminal state.
 This template is a starting point for implementing apps by adding more states and operations.
@@ -152,7 +152,8 @@ You can run YOUR_APPLICATION as a standalone app in the [FeatureCloud test-bed](
 featurecloud test start --app-image featurecloud.ai/YOUR_APPLICATION --client-dirs './sample/c1,./sample/c2' --generic-dir './sample/generic'
 ```
 
-
+### Visualizer
+The visualizer app can be accessed through /visualizer page, relative to normal web frontend. It is based on the [FeatureCloud Cluster Visualization app](https://featurecloud.ai/app/fc-cluster-visualization-app). [Sourcecode and documentation](https://github.com/FeatureCloud/fc-cluster-visualization-app/) are available. 
 
 ### References
 <a id="1">[1]</a> 
